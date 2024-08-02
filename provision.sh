@@ -75,7 +75,7 @@ sed '/^        location = \/50x.html {/r'<(
 
 # обновляем changelog:
 sed '/^%changelog/r'<(
-  echo "* Fri Aug 02 2024 ABEgorov - 1:1.27.0-1"
+  echo "* Fri Aug 02 2024 Andrei Egorov <abegorov@github.com> - 1:1.27.0-1.abe"
   echo "- new version 1.27.0 with vts module"
   echo ""
 ) -i rpmbuild/SPECS/nginx.spec
